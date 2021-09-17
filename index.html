@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;}
+            body,html{
+            background: blue;
+           
+            width: 100%;
+            height: 100vh;
+            }
+            .header{
+         background: blue;
+                left: -30px;
+                top: 30px;
+                color:white;
+                font-size: 20px;
+                opacity: 1.8;
+            }
+           .header h4{
+               cursor:pointer;}
+               .header :hover{
+                   color: yellow;
+                       opacity: 0.8;
+                       transition: 0.5s;}
+    .content a b{
+         color: darkgreen;
+         opacity: 1.8;
+       
+    }
+    .content :hover{
+        color: darkgreen; opacity: 0.8;}   
+        .content a img{size:10px;}
+        .about {
+             top:100px ;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h4>Richfox ForeveR</h4></div><br><br>
+        <div class="content"
+         style="text-align:center;
+         color: black;
+        ; font-size: 50px;">
+        <h5>WELCOME TO THIS WEBSITE</h5>
+    <p>
+        This is our website. <br>
+        We are still buiding this website.<br>
+        so if u find something likes bugs then tell us on <a 
+        href="https://www.youtube.com/channel/UCsjf9WWTHJq4pneEglO1qRA"
+         alt="click here">
+            <b>Youtube</b></a>
+    </p><br><br><br><br><br><br><br><br><br><br>
+   <section><div class="about Us" 
+    style="text-align: center;
+     justify-content: center;"></div>
+    <b style="font-size: 40px;color: 
+    white;">About Us</b>
+       <p style="color: white;">
+           We are the ForeveR Brothers.<br>
+          <b> F stands for Farhaan 
+              and R stands for Riyaan.</b><br>
+              We like to learn HTML,CSS,JS, this 
+              is the website built 
+              with js and html css. 
+       </p>
+    </div>
+   </section>
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      />
+   
+      <!-- Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   
+      <!-- My JS -->
+      <script src="main.js"></script>
+   
+      <!-- My CSS -->
+      <link rel="stylesheet" href="main.css" />
+   
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/996973c893.js"></script>
+   
+      <!-- Google Font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
+       <title>Study Timer</title>
+         <style>
+             html,body{
+               font-family: 'Montserrat', sans-serif;
+             }
+             #audio1 {
+       justify-content: center;
+     
+     }
+    
+     /* Main heading */
+     .heading {
+       color: #bae8e8;
+     }
+     
+     /* Countdown timer */
+     .timer {
+       color: #ff0000;
+       text-align: center;
+       width: 20rem;
+       height: 20rem;
+       border: 5px solid #fff;
+       border-radius: 10rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     
+     .row {
+       width: 100%;
+     }
+     
+     /* remove the padding on the play button */
+     .btn {
+       padding: 0;
+     }
+     
+     /* play and reset icons */
+     .fa-play,
+     .fa-redo-alt {
+       color: #e3f6f5;
+       border: 2px solid transparent;
+       padding: 1rem;
+       border-radius: 2rem;
+     }
+     
+     .fa-play:hover,
+     .fa-redo-alt:hover {
+       color: #bae8e8;
+       border: 2px solid #bae8e8;
+       transition: 0.3s ease;
+     }
+     
+     /* Dynamic class */
+     /* Make the message visible */
+     .show_message {
+       display: block;
+       padding: 1rem 0;
+       color: #272343;
+       background: #e3f6f5;
+       border-radius: 0.5rem;
+       transition: 0.5s ease;
+       
+     }
+    
+       </style>
+       <style>
+        
+         .navbar{
+           width: 85%;
+           margin: auto;
+           padding:35px 0;
+           display:flex;
+           align-items:center;
+           justify-content: space-between;}
+           .button{
+           size: 50px;
+           width: 200px;
+           padding: 50px 0;
+           text-align:center;
+           margin: 40px 20px;
+           border-radius:25px;
+           font-weight:bold;
+           border:2px solid red;
+           background:transparent;
+           color: white;
+           cursor: pointer;
+           position: relative;
+           overflow:hidden;
+          
+   }
+ 
+    button:hover{
+     border:none;
+    }
+   </style>
+         </style>
+   </head>
+   <body onload="template()" background="study.jpg">
+       <div class="navbar">
+         <a href="index.html" class="img">
+         <img src="FR.jpg" class="logo" width="150px" height="150px"
+          ></a>
+         
+      
+        </div>
+       <div class="container">
+         <div class="background" background="D:\Css and html\WEBSITE\promodoro\study.jpg">  </div>
+         <!-- Heading -->
+         <h1 class="text-center my-5 heading">STUDY TIMER</h1>
+   
+         <!-- Main Timer -->
+         <div class="container timer">
+           <div class="row">
+             <div class="col-5">
+               <h4 id="minutes"></h4>
+             </div>
+             <div class="col-2">
+               <h4>:</h4>
+             </div>
+             <div class="col-5">
+               <h4 id="seconds"></h4>
+             </div>
+           </div>
+         </div>
+   <!-- Finished Message -->
+         <div class="my-5">
+           <h3 id="done" class="text-center"></h3>
+         </div>
+   
+         <!-- Start Button and reset button-->
+         <div class="conatiner d-flex justify-content-center my-5">
+           <button class="btn" onclick="start_timer()">
+             <i class="fas fa-play fa-2x"></i>
+           </button>
+           <a href="index.html"><i class="fas fa-redo-alt fa-2x"></i></a>
+         </div>
+       </div>
+       <script>
+           // Required variables
+   var session_seconds = "00";
+   var session_minutes = 25;
+   
+   // Audio files
+   var click_sound = new Audio("intro.mp3");
+   var bell = new Audio("crowd clapping.mp3");
+   
+   // Starting template for the timer
+   function template() {
+     document.getElementById("minutes").innerHTML = session_minutes;
+     document.getElementById("seconds").innerHTML = session_seconds;
+   }
+   
+   function start_timer() {
+     click_sound.play();
+   
+     // Change the minutes and seconds to starting time
+     session_minutes = 24;
+     session_seconds = 59;
+   
+     // Add the seconds and minutes to the page
+     document.getElementById("minutes").innerHTML = session_minutes;
+     document.getElementById("seconds").innerHTML = session_seconds;
+   
+     // Start the countdown
+     var minutes_interval = setInterval(minutesTimer, 60000);
+     var seconds_interval = setInterval(secondsTimer, 1000);
+   
+     // Functions
+     // Function for minute counter
+     function minutesTimer() {
+       session_minutes = session_minutes - 1;
+       document.getElementById("minutes").innerHTML = session_minutes;
+     }
+   
+     // Function for second counter
+     function secondsTimer() {
+       session_seconds = session_seconds - 1;
+       document.getElementById("seconds").innerHTML = session_seconds;
+   
+       // Check if the seconds and minutes counter has reached 0
+       // If reached 0 then end the session
+       if (session_seconds <= 0) {
+         if (session_minutes <= 0) {
+           // Clears the interval i.e. stops the counter
+           clearInterval(minutes_interval);
+           clearInterval(seconds_interval);
+   
+           // Add the message to the html
+           document.getElementById("done").innerHTML =
+             "Session Completed!! Take a Break";
+   
+           // Make the html message div visible
+           document.getElementById("done").classList.add("show_message");
+   
+           // PLay the bell sound to tell the end of session
+           bell.play();
+         }
+   
+         // Reset the session seconds to 60
+         session_seconds = 60;
+       }
+     }
+   }
+       </script>
+      
+      <style>
+        b a {
+          font-size: 60px;
+          font-family: 'Times New Roman', Times, serif;
+        }
+      </style>
+      <div class="audio">
+      <div style="text-align:center"> 
+       <button onclick="playPause()" width="700px">Play/Pause</button>
+      <audio controls loop id="audio1">
+        <source src="action.mp3">
+      </audio>
+      </div>
+      <script> 
+       var myVideo = document.getElementById("audio1"); 
+       
+       function playPause() { 
+         if (myVideo.paused) 
+           myVideo.play(); 
+         else 
+           myVideo.pause(); 
+          
+       } </script></div>
+       
+       <a onclick="playPause()" href="#audio1"><p>
+         Click here to play the<br>
+         <b><i>AUDIO</i></b>
+       </p></a>
+       
+     </body>
+   </html>
+    
+</body>
+</html>
